@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir-Bold.eot');
+    src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Bold.woff2') format('woff2'),
+         url('fonts/Vazir-Bold.woff') format('woff'),
+         url('fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir-Light.eot');
+    src: url('fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Light.woff2') format('woff2'),
+         url('fonts/Vazir-Light.woff') format('woff'),
+         url('fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir-Medium.eot');
+    src: url('fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Medium.woff2') format('woff2'),
+         url('fonts/Vazir-Medium.woff') format('woff'),
+         url('fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir-Thin.eot');
+    src: url('fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Thin.woff2') format('woff2'),
+         url('fonts/Vazir-Thin.woff') format('woff'),
+         url('fonts/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Vazir', sans-serif;
+    font-weight: 500;
+   
+}
+
+
+@media (max-width: 663px) {
+    header {
+        height: 230px; 
+
+    }
+    ul{
+        margin-top: 10px;
+        flex-direction: column; 
+        align-items: center;
+        gap: 16px; 
+    }
+    #logo{
+display: none;
+    }
+
+    #hero {
+        margin-top: 230px;
+        scroll-margin-top: 232px;
+
+    }
+
+    #about ,#projects ,#Experience ,#Contact{
+        scroll-margin-top: 230px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #hero .flex {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    
+    #hero .flex div {
+      margin: 0 auto;
+    }
+    
+    #hero .flex .ml-20 {
+      margin-left: 10;
+      margin-bottom: 2rem;
+    }
+    
+    #hero img {
+      width: 300px;
+      height: 300px;
+      margin-top: 3rem;
+    }
+    
+
+    
+    #about .h-100 {
+      flex-direction: column;
+    }
+    
+    #about img {
+      width: 250px;
+      height: 300px;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    
+
+    #about ul {
+        margin-top: 1rem;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      #about ul li {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        gap: 0.5rem;
+        justify-content: center; 
+        width: 100%;
+      }
+      
+  
+      #about ul li button {
+        justify-content: center;
+        height: 50px;
+      }
+      
+@media (max-width: 600px) {
+        #about ul li {
+          flex-wrap: nowrap; 
+        }
+      
+        #about ul li button {
+          flex: 1;
+          max-width: 33.33%;
+        }
+      }
+      
+      #about ul li button img {
+        width: 30px;
+        height: 30px;
+      }
+      
+    
+
+    
+    .h-100, .h-130, .h-150, .h-160, .h-220 {
+      height: auto;
+      padding-bottom: 2rem;
+    }
+    
+  }
+  
+
+
+@media screen and (max-width: 480px) {
+
+
+    
+    #about .px-40 {
+      padding: 0.5rem;
+    }
+    
+    #about ul li button {
+      width: calc(33% - 0.5rem);
+      font-size: 0.7rem;
+      padding: 0.4rem !important;
+    }
+    
+    #hero h1 {
+      font-size: 1.75rem;
+    }
+     
+
+  }
+  
+
+  

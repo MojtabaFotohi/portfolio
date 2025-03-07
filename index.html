@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+
+
+<body class="overflow-x-hidden">
+  <header class="flex flex-row-reverse justify-around items-center p-6 bg-black text-slate-200 fixed top-0 left-0 w-full z-50">
+    <div>
+      <nav>
+        <ul class="flex flex-row-reverse gap-10 ">
+          <li><a href="#hero"
+              class="px-3 border-b-2 border-transparent hover:border-blue-600 pb-1 transition-all duration-300 ease-in-out">Hero</a>
+          </li>
+          <li><a href="#about"
+              class="px-3 border-b-2 border-transparent hover:border-blue-600 pb-1 transition-all duration-300 ease-in-out">About</a>
+          </li>
+          <li><a href="#projects"
+              class="px-3 border-b-2 border-transparent hover:border-blue-600 pb-1 transition-all duration-300 ease-in-out">Projects</a>
+          </li>
+          <li><a href="#Experience"
+              class="px-3 border-b-2 border-transparent hover:border-blue-600 pb-1 transition-all duration-300 ease-in-out">Experience</a>
+          </li>
+          <li><a href="#Contact"
+              class="px-3 border-b-2 border-transparent hover:border-blue-600 pb-1 transition-all duration-300 ease-in-out">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="logo">
+      <a href="#top">
+        <img src="images/logolight.svg" alt="logo" width="48" height="48">
+      </a>
+    </div>
+  </header>
+
+  
+
+  <section class="h-100 w-full bg-gray-500  mt-24 scroll-mt-24" id="hero">
+
+
+
+
+    <div class="flex justify-around">
+      <div class="flex justify-start ml-20 ">
+        <ul class="mt-24 space-y-10 ">
+          <li class="tracking-[4px] text-white">hello my name is</li>
+          <li>
+            <h1 class="text-5xl font-bold text-white"> MOJTABA FOTOHI</h1>
+          </li>
+          <li><span class="tracking-[2px] text-white">A Creative Freelancer & Full Stack Developer</span></li>
+          <li><button
+              class="bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-black hover:text-white"><a
+                href="#Contact">Contact Me</a></button></li>
+        </ul>
+      </div>
+      <div class="flex justify-center items-center ">
+        <img src="images/me.jpg" alt="me" width="350" height="350" class="rounded-2xl opacity-70 m-5  transition-transform duration-300 transform hover:scale-105">
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <section class="h-130 w-full bg-gray-600 scroll-mt-24 text-white" id="about">
+    <div class="h-100 flex justify-around items-center pt-20 px-40">
+      <div ><img src="images/me2.jpg" alt="me" width="300" height="300" class="rounded-2xl opacity-70 transition-transform duration-300 transform hover:scale-105"></div>
+      <div dir="rtl" class="">
+        <span class="">
+          سلام! من مجتبی فتوحی هستم، یک توسعه‌دهنده Full Stack با اشتیاق به ساخت تجربه‌های دیجیتال خلاقانه و مقیاس‌پذیر.
+          <br>
+          با بیش از 8 سال تجربه در توسعه وب، من در زمینه‌های فرانت‌اند و بک‌اند تخصص دارم. از طراحی رابط‌های کاربری جذاب
+          <br> گرفته تا پیاده‌سازی سیستم‌های مقیاس‌پذیر در سمت سرور، تلاش می‌کنم بهترین راه‌حل‌های نرم‌افزاری را ارائه
+          دهم.
+        </span>
+        <br>
+        <br>
+        <ul>
+          <li class="flex space-x-5">فرانت‌اند : <button
+              class="flex items-center space-x-2 bg-white text-black px-15 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  mr-5 transition-transform duration-300 transform hover:scale-110"><img
+                src="images/react.svg" alt="" width="25" height="25" class="ml-2"> React.js </button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/vuejs.svg" alt="" width="25" height="25" class="ml-2"> Vue.js</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/tailwind-css.svg" alt="" width="25" height="25" class="ml-2"> Tailwind CSS</button>
+          </li>
+          <br>
+          <li class="flex space-x-5 ">بک‌اند : <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  mr-9 transition-transform duration-300 transform hover:scale-110"><img
+                src="images/django.svg" alt="" width="25" height="25" class="ml-2"> Django</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/ex.png" alt="" width="25" height="25" class="ml-2"> Express.js</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/node-js.svg" alt="" width="25" height="25" class="ml-2"> Node.js</button>
+          </li>
+          <br>
+          <li class="flex space-x-5 ">دو آپس : <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  mr-6 transition-transform duration-300 transform hover:scale-110"><img
+                src="images/docker.svg" alt="" width="25" height="25" class="ml-2"> Docker</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/kubernets.svg" alt="" width="25" height="25" class="ml-2"> Kubernetes</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/ci-cd-svgrepo-com.svg" alt="" width="25" height="25" class="ml-2"> CI/CD</button>
+          </li>
+
+          <br>
+          <li class="flex space-x-5 ">ابزار ها : <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  mr-8 transition-transform duration-300 transform hover:scale-110"><img
+                src="images/git.svg" alt="" width="25" height="25" class="ml-2"> Git</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/github.svg" alt="" width="25" height="25" class="ml-2"> GitHub</button>
+            <button
+              class="flex items-center space-x-2 bg-white text-black px-6 py-3 rounded-lg shadow-2xl transition active:scale-95 hover:bg-gray-300  transition-transform duration-300 transform hover:scale-110"><img
+                src="images/webpack.svg" alt="" width="25" height="25" class="ml-2"> Webpack</button>
+          </li>
+        </ul>
+
+        <br>
+        <span>علاقه زیادی به یادگیری تکنولوژی‌های جدید دارم و همیشه دنبال حل چالش‌های پیچیده در دنیای برنامه‌نویسی هستم.
+          <br>اگر ایده‌ای برای همکاری دارید، خوشحال می‌شوم بیشتر صحبت کنیم!</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="h-220 w-full bg-gray-500 scroll-mt-24 " id="projects">
+    <div class="pt-10">
+      <div><span class="flex justify-around text-[40px] py-3 text-white">پروژه ‌های من</span></div>
+
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-15 ">
+
+        <div class="bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105">
+          <img src="images/1.png" alt=""
+            class=" object-cover rounded-lg transition-opacity duration-300 hover:opacity-70">
+          <p class="text-center mt-3 text-gray-700">سایت فروش لوازم ورزشی</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105">
+          <img src="images/2.png" alt=""
+            class=" object-cover rounded-lg transition-opacity duration-300 hover:opacity-70">
+          <p class="text-center mt-3 text-gray-700">سایت رزرو دیتیلینگ ماشین</p>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105">
+          <img src="images/3.png" alt=""
+            class=" object-cover rounded-lg transition-opacity duration-300 hover:opacity-70">
+          <p class="text-center mt-3 text-gray-700">سایت خدمات تیونینگ</p>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105">
+          <img src="images/4.png" alt=""
+            class=" object-cover rounded-lg transition-opacity duration-300 hover:opacity-70">
+          <p class="text-center mt-3 text-gray-700">سایت فروش دوچرخه</p>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105">
+          <img src="images/5.png" alt=""
+            class=" object-cover rounded-lg transition-opacity duration-300 hover:opacity-70">
+          <p class="text-center mt-3 text-gray-700">سایت فروش قهوه</p>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105">
+          <img src="images/6.png" alt=""
+            class=" object-cover rounded-lg transition-opacity duration-300 hover:opacity-70">
+          <p class="text-center mt-3 text-gray-700">سایت فروش لوازم شکاری</p>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+  <section class="h-150 w-full bg-gray-600 scroll-mt-24 " id="Experience">
+    <div class="pt-10">
+      <div><span class="flex justify-around text-[40px] py-3 text-white">تجربیات کاری من</span></div>
+
+      <div class="flex flex-col items-center justify-center py-10 px-4">
+        <div class="grid  md:grid-cols-2 gap-6 max-w-4xl w-full">
+          <div
+            class="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl rtl">
+            <div class="flex items-center mb-4 gap-10">
+              <div
+                class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white text-xl font-bold  ">
+                ۱
+              </div>
+              <div class="mr-4">
+                <h3 class="text-xl font-bold text-black">دتال</h3>
+                <p class="text-gray-600">1395 - 1397</p>
+              </div>
+            </div>
+            <p class="text-gray-700 text-center" dir="rtl">طراحی و توسعه داشبورد سفارش با Node.js و MongoDB برای مدیریت
+              بهتر اطلاعات خریداران.</p>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl rtl">
+            <div class="flex items-center mb-4 gap-10">
+              <div
+                class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white text-xl font-bold">
+                ۲
+              </div>
+              <div class="mr-4">
+                <h3 class="text-xl font-bold text-black">اسنپ فود</h3>
+                <p class="text-gray-600">1397 - 1399</p>
+              </div>
+            </div>
+            <p class="text-gray-700 text-center" dir="rtl">پیاده‌سازی سیستم مدیریت سفارش‌ها با Vue.js و Tailwind افزایش
+              سرعت پردازش سفارش‌ها.</p>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl rtl">
+            <div class="flex items-center mb-4 gap-10">
+              <div
+                class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white text-xl font-bold">
+                ۳
+              </div>
+              <div class="mr-4">
+                <h3 class="text-xl font-bold text-black">دیجیکالا</h3>
+                <p class="text-gray-600">1399 - 1401</p>
+              </div>
+            </div>
+            <p class="text-gray-700 text-center" dir="rtl">مشارکت در توسعه و بهینه‌سازی پنل فروشندگان با React.js و
+              Node.js برای بهبود تجربه کاربری.</p>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl rtl">
+            <div class="flex items-center mb-4 gap-10">
+              <div
+                class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white text-xl font-bold">
+                ۴
+              </div>
+              <div class="mr-4">
+                <h3 class="text-xl font-bold text-black">ابر آروان </h3>
+                <p class="text-gray-600">1401 - تاکنون</p>
+              </div>
+            </div>
+            <p class="text-gray-700 text-center" dir="rtl">مشارکت در توسعه زیرساخت‌های ابری و بهینه‌سازی APIهای
+              Dockerized با Nest.js و Kubernetes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="Contact" class="h-160 flex items-center justify-center bg-gray-500 text-white p-6 scroll-mt-24">
+    <div class="w-full max-w-xl bg-black rounded-2xl shadow-xl p-8 flex flex-col md:flex-row gap-8">
+
+      <div class="w-full ">
+        <h2 class="text-3xl font-bold mb-4 flex items-center justify-center">تماس با من 📩</h2>
+        <p class="text-gray-300 mb-6 flex items-center justify-center">اگر سوالی دارید یا نیاز به همکاری دارید، فرم زیر
+          را پر کنید.</p>
+        <form class="space-y-4">
+          <input type="text" placeholder="نام شما" class="w-full p-3 rounded-lg bg-gray-500 focus:outline-none">
+          <input type="email" placeholder="ایمیل شما" class="w-full p-3 rounded-lg bg-gray-500 focus:outline-none">
+          <textarea placeholder="پیام شما" rows="4"
+            class="w-full p-3 rounded-lg bg-gray-500 focus:outline-none"></textarea>
+          <button class="w-full p-3 bg-gray-700 hover:bg-sky-600 rounded-lg text-white font-semibold transition">ارسال
+            پیام</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <footer class="h-50 w-full bg-black ">
+    <div class="flex justify-center  pt-10 gap-10">
+      <div
+        class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-white text-xl font-bold transition  hover:bg-gray-300  transition-transform duration-250 transform hover:scale-130">
+        <img src="images/instagram-167-svgrepo-com.svg" alt="" width="25" height="25">
+      </div>
+      <div
+        class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-white text-xl font-bold transition  hover:bg-gray-300  transition-transform duration-250 transform hover:scale-130">
+        <img src="images/telegram-svgrepo-com.svg" alt="" width="25" height="25">
+      </div>
+      <div
+        class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-white text-xl font-bold transition  hover:bg-gray-300  transition-transform duration-250 transform hover:scale-130">
+        <img src="images/linkedin-rounded-svgrepo-com.svg" alt="" width="25" height="25">
+      </div>
+    </div>
+    <div class="flex pt-10 text-white justify-center items-center gap-5">
+      <a href="tel:+989123456789" class="p-2 hover:border-2 border-white text-white px-4 py-2 rounded-lg rounded-2xl transition-transform duration-300 transform hover:scale-110 ">
+        09123456789  
+      </a> 
+      |
+      <a href="mailto:mojtaba@email.com" class="p-2 hover:border-2 border-white text-white px-4 py-2 rounded-lg rounded-2xl transition-transform duration-300 transform hover:scale-110 ">
+         mojtaba@gmail.com </a>
+
+
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
